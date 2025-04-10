@@ -1,12 +1,12 @@
 # 📱 Contacto  Frontend
 
-Interfaz web  con **React** que permite a los usuarios gestionar sus contactos personales. Este frontend se conecta con una API REST autenticada por JWT para realizar operaciones CRUD.
+Interfaz web  con **React** para gestionar contactos. Este frontend se conecta con una API REST autenticada por JWT para realizar operaciones CRUD.
 
 > 🔗 Este proyecto se conecta con el backend: [Contact Manager API](https://github.com/tuusuario/contactos-backend-js)
 
 ---
 
-## 🚀 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - React + Vite
 - React Router DOM
@@ -16,7 +16,7 @@ Interfaz web  con **React** que permite a los usuarios gestionar sus contactos p
 
 ---
 
-## 📷 Vistas principales
+## Vistas principales
 
 | Vista | Descripción |
 |-------|-------------|
@@ -26,7 +26,7 @@ Interfaz web  con **React** que permite a los usuarios gestionar sus contactos p
 
 ---
 
-## 📦 Instalación y uso
+## Instalación y uso
 
 1. **Clona este repositorio**:
 - git clone https://github.com/tuusuario/contactos-frontend.git
@@ -36,8 +36,8 @@ Interfaz web  con **React** que permite a los usuarios gestionar sus contactos p
 - npm install
 
 3 Inicia el entorno
-npm run dev
+- npm run dev
 
-4. Abrir ennavegador:
-http://localhost:5173
-(backend esté corriendo en http://localhost:5000)
+4. Abrir en navegador:
+- http://localhost:5173
+- (backend esté corriendo en http://localhost:5000)
