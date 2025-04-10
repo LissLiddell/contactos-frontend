@@ -1,7 +1,6 @@
 import { useMemo, useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import '../css/Dashboard.css';
 
 
 function Dashboard() {
@@ -79,10 +78,10 @@ function Dashboard() {
   };
 
   return (
-    <div className="container">
+    <div className="container dashboard-container">
       <h2>Mis Contactos</h2>
-      <button onClick={logout}>Cerrar sesión</button>
-
+      <br />
+      <button onClick={logout} >Cerrar sesión</button>
       <form onSubmit={handleSubmit}>
         <input name="name" placeholder="Nombre" value={form.name} onChange={handleChange} required />
         <input name="email" placeholder="Correo" value={form.email} onChange={handleChange} required />

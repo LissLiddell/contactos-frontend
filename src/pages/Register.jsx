@@ -22,7 +22,7 @@ function Register() {
   };
 
   return (
-    <div>
+    <div className="container ">
       <h2>Registro</h2>
       <form onSubmit={handleSubmit}>
         <input name="name" placeholder="Nombre" onChange={handleChange} required />

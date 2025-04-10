@@ -22,8 +22,8 @@ function Login() {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
+    <div className="container ">
+      <h2>Iniciar Sesión</h2>
       <form onSubmit={handleSubmit}>
         <input name="email" placeholder="Correo" onChange={handleChange} required />
         <input name="password" type="password" placeholder="Contraseña" onChange={handleChange} required />
