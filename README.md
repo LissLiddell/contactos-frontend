@@ -1,12 +1,43 @@
-# React + Vite
+# 📱 Contacto  Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interfaz web  con **React** que permite a los usuarios gestionar sus contactos personales. Este frontend se conecta con una API REST autenticada por JWT para realizar operaciones CRUD.
 
-Currently, two official plugins are available:
+> 🔗 Este proyecto se conecta con el backend: [Contact Manager API](https://github.com/tuusuario/contactos-backend-js)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- React Router DOM
+- Axios
+- CSS (con diseño responsive y modular)
+- JWT para autenticación
+
+---
+
+## 📷 Vistas principales
+
+| Vista | Descripción |
+|-------|-------------|
+| `/` | Login de usuario |
+| `/register` | Registro de nuevo usuario |
+| `/dashboard` | Panel principal con CRUD de contactos |
+
+---
+
+## 📦 Instalación y uso
+
+1. **Clona este repositorio**:
+- git clone https://github.com/tuusuario/contactos-frontend.git
+- cd contactos-frontend
+
+2.Instala las dependencias:
+- npm install
+
+3 Inicia el entorno
+npm run dev
+
+4. Abrir ennavegador:
+http://localhost:5173
+(backend esté corriendo en http://localhost:5000)
